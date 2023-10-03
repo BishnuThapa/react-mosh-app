@@ -15,10 +15,9 @@ function App() {
         </button>
       </div>
 
-      <Counter></Counter>
-      
+      <Counter />
     </>
-  )
+  );
 }
 
 export default App
