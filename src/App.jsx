@@ -10,7 +10,12 @@ function App() {
   return (
     <>
       <div className="card">
-        <button onClick={() => setCount(count + 1)}>count is {count}</button>
+        <button
+          className="btn btn-outline-warning"
+          onClick={() => setCount(count + 1)}
+        >
+          count is {count}
+        </button>
       </div>
 
       <Counter />
